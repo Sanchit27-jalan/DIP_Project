@@ -1,0 +1,432 @@
+Test cycle number.1
+-----------------------
+--- Values ---
+Successes: 151
+Failures: 62
+False positives: 2
+--- Times ---
+Min: 1345260 ns
+Max: 439404392 ns
+Mean: 156641754 ns
+-----------------------
+
+Test cycle number.1
+-----------------------
+--- Values ---
+Successes: 9
+Failures: 206
+False positives: 0
+--- Times ---
+Min: 266023 ns
+Max: 12153134 ns
+Mean: 1968025 ns
+-----------------------
+
+Test cycle number.2
+-----------------------
+--- Values ---
+Successes: 9
+Failures: 206
+False positives: 0
+--- Times ---
+Min: 243741 ns
+Max: 2195003 ns
+Mean: 1861512 ns
+-----------------------
+
+Test cycle number.3
+-----------------------
+--- Values ---
+Successes: 9
+Failures: 206
+False positives: 0
+--- Times ---
+Min: 242497 ns
+Max: 2062132 ns
+Mean: 1853464 ns
+-----------------------
+
+Test cycle number.4
+-----------------------
+--- Values ---
+Successes: 9
+Failures: 206
+False positives: 0
+--- Times ---
+Min: 240084 ns
+Max: 2333407 ns
+Mean: 1849845 ns
+-----------------------
+
+Test cycle number.5
+-----------------------
+--- Values ---
+Successes: 9
+Failures: 206
+False positives: 0
+--- Times ---
+Min: 243756 ns
+Max: 2263480 ns
+Mean: 1844834 ns
+-----------------------
+
+Test cycle number.1
+-----------------------
+--- Values ---
+Successes: 19
+Failures: 196
+False positives: 0
+--- Times ---
+Min: 260500 ns
+Max: 106159723 ns
+Mean: 58560983 ns
+-----------------------
+
+Test cycle number.2
+-----------------------
+--- Values ---
+Successes: 19
+Failures: 196
+False positives: 0
+--- Times ---
+Min: 251752 ns
+Max: 77463337 ns
+Mean: 58311470 ns
+-----------------------
+
+Test cycle number.3
+-----------------------
+--- Values ---
+Successes: 19
+Failures: 196
+False positives: 0
+--- Times ---
+Min: 248809 ns
+Max: 78140194 ns
+Mean: 58410670 ns
+-----------------------
+
+Test cycle number.4
+-----------------------
+--- Values ---
+Successes: 19
+Failures: 196
+False positives: 0
+--- Times ---
+Min: 254857 ns
+Max: 77549468 ns
+Mean: 58485973 ns
+-----------------------
+
+Test cycle number.5
+-----------------------
+--- Values ---
+Successes: 19
+Failures: 196
+False positives: 0
+--- Times ---
+Min: 251707 ns
+Max: 77480356 ns
+Mean: 58308223 ns
+-----------------------
+
+Test cycle number.1
+-----------------------
+--- Values ---
+Successes: 28
+Failures: 168
+False positives: 19
+--- Times ---
+Min: 9480182 ns
+Max: 19188978 ns
+Mean: 10185945 ns
+-----------------------
+
+Test cycle number.2
+-----------------------
+--- Values ---
+Successes: 28
+Failures: 168
+False positives: 19
+--- Times ---
+Min: 9286824 ns
+Max: 11146943 ns
+Mean: 10060126 ns
+-----------------------
+
+Test cycle number.3
+-----------------------
+--- Values ---
+Successes: 28
+Failures: 168
+False positives: 19
+--- Times ---
+Min: 9345146 ns
+Max: 11126781 ns
+Mean: 10074461 ns
+-----------------------
+
+Test cycle number.4
+-----------------------
+--- Values ---
+Successes: 28
+Failures: 168
+False positives: 19
+--- Times ---
+Min: 9405085 ns
+Max: 11151525 ns
+Mean: 10071451 ns
+-----------------------
+
+Test cycle number.5
+-----------------------
+--- Values ---
+Successes: 28
+Failures: 168
+False positives: 19
+--- Times ---
+Min: 9331649 ns
+Max: 11645733 ns
+Mean: 10102493 ns
+-----------------------
+
+Test cycle number.1
+-----------------------
+--- Values ---
+Successes: 0
+Failures: 97
+False positives: 118
+--- Times ---
+Min: 120414870 ns
+Max: 233844348 ns
+Mean: 143095012 ns
+-----------------------
+
+Test cycle number.2
+-----------------------
+--- Values ---
+Successes: 0
+Failures: 97
+False positives: 118
+--- Times ---
+Min: 123330338 ns
+Max: 252246640 ns
+Mean: 147108583 ns
+-----------------------
+
+Test cycle number.3
+-----------------------
+--- Values ---
+Successes: 0
+Failures: 97
+False positives: 118
+--- Times ---
+Min: 124335867 ns
+Max: 253265101 ns
+Mean: 147750930 ns
+-----------------------
+
+Test cycle number.4
+-----------------------
+--- Values ---
+Successes: 0
+Failures: 97
+False positives: 118
+--- Times ---
+Min: 126359063 ns
+Max: 250497481 ns
+Mean: 148524438 ns
+-----------------------
+
+Test cycle number.5
+-----------------------
+--- Values ---
+Successes: 0
+Failures: 97
+False positives: 118
+--- Times ---
+Min: 125858942 ns
+Max: 253003544 ns
+Mean: 147945424 ns
+-----------------------
+
+Test cycle number.1
+-----------------------
+--- Values ---
+Successes: 151
+Failures: 62
+False positives: 2
+--- Times ---
+Min: 1340578 ns
+Max: 439365555 ns
+Mean: 156598213 ns
+-----------------------
+
+Test cycle number.2
+-----------------------
+--- Values ---
+Successes: 151
+Failures: 62
+False positives: 2
+--- Times ---
+Min: 1342807 ns
+Max: 423896692 ns
+Mean: 155733661 ns
+-----------------------
+
+Test cycle number.3
+-----------------------
+--- Values ---
+Successes: 151
+Failures: 62
+False positives: 2
+--- Times ---
+Min: 1341724 ns
+Max: 425686444 ns
+Mean: 156786831 ns
+-----------------------
+
+Test cycle number.4
+-----------------------
+--- Values ---
+Successes: 151
+Failures: 62
+False positives: 2
+--- Times ---
+Min: 1336818 ns
+Max: 426737893 ns
+Mean: 156892511 ns
+-----------------------
+
+Test cycle number.5
+-----------------------
+--- Values ---
+Successes: 151
+Failures: 62
+False positives: 2
+--- Times ---
+Min: 1347983 ns
+Max: 423907027 ns
+Mean: 156910929 ns
+-----------------------
+
+Test cycle number.1
+-----------------------
+--- Values ---
+Successes: 137
+Failures: 77
+False positives: 1
+--- Times ---
+Min: 1344870 ns
+Max: 101415785 ns
+Mean: 37724805 ns
+-----------------------
+
+Test cycle number.2
+-----------------------
+--- Values ---
+Successes: 137
+Failures: 77
+False positives: 1
+--- Times ---
+Min: 1348814 ns
+Max: 83675989 ns
+Mean: 37574344 ns
+-----------------------
+
+Test cycle number.3
+-----------------------
+--- Values ---
+Successes: 137
+Failures: 77
+False positives: 1
+--- Times ---
+Min: 1340122 ns
+Max: 83634467 ns
+Mean: 37420116 ns
+-----------------------
+
+Test cycle number.4
+-----------------------
+--- Values ---
+Successes: 137
+Failures: 77
+False positives: 1
+--- Times ---
+Min: 1346284 ns
+Max: 83553904 ns
+Mean: 37432440 ns
+-----------------------
+
+Test cycle number.5
+-----------------------
+--- Values ---
+Successes: 137
+Failures: 77
+False positives: 1
+--- Times ---
+Min: 1336480 ns
+Max: 83662301 ns
+Mean: 37466785 ns
+-----------------------
+
+Test cycle number.1
+-----------------------
+--- Values ---
+Successes: 100
+Failures: 115
+False positives: 0
+--- Times ---
+Min: 1350160 ns
+Max: 27179408 ns
+Mean: 6751988 ns
+-----------------------
+
+Test cycle number.2
+-----------------------
+--- Values ---
+Successes: 100
+Failures: 115
+False positives: 0
+--- Times ---
+Min: 1344543 ns
+Max: 10206402 ns
+Mean: 6604146 ns
+-----------------------
+
+Test cycle number.3
+-----------------------
+--- Values ---
+Successes: 100
+Failures: 115
+False positives: 0
+--- Times ---
+Min: 1334209 ns
+Max: 10196237 ns
+Mean: 6585742 ns
+-----------------------
+
+Test cycle number.4
+-----------------------
+--- Values ---
+Successes: 100
+Failures: 115
+False positives: 0
+--- Times ---
+Min: 1335108 ns
+Max: 10152203 ns
+Mean: 6581161 ns
+-----------------------
+
+Test cycle number.5
+-----------------------
+--- Values ---
+Successes: 100
+Failures: 115
+False positives: 0
+--- Times ---
+Min: 1340017 ns
+Max: 10095092 ns
+Mean: 6574940 ns
+-----------------------
+
