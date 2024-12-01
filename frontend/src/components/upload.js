@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { Image as ImageIcon, UploadCloud } from 'lucide-react'; // Import specific icons
+import './upload.css';
 
 const ImageUploader = () => {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -11,7 +13,6 @@ const ImageUploader = () => {
     const file = event.target.files[0];
     setSelectedFile(file);
 
-    // Create image preview
     const reader = new FileReader();
     reader.onloadend = () => {
       setPreviewImage(reader.result);
@@ -21,7 +22,7 @@ const ImageUploader = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    
+
     if (!selectedFile) {
       setError('Please select an image first');
       return;
@@ -33,8 +34,8 @@ const ImageUploader = () => {
     try {
       const response = await axios.post('http://localhost:8000/upload', formData, {
         headers: {
-          'Content-Type': 'multipart/form-data'
-        }
+          'Content-Type': 'multipart/form-data',
+        },
       });
 
       setProcessingResult(response.data);
@@ -47,47 +48,51 @@ const ImageUploader = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto p-4 bg-white shadow-md rounded-lg">
-      <h2 className="text-2xl font-bold mb-4 text-center">Image Uploader</h2>
-      
-      <form onSubmit={handleSubmit} className="space-y-4">
-        <input 
-          type="file" 
-          onChange={handleFileChange} 
-          accept="image/*"
-          className="w-full p-2 border rounded-md"
-        />
-        
+    <div className="uploader-container">
+      <h2 className="uploader-title">Image Uploader</h2>
+
+      <form onSubmit={handleSubmit} className="uploader-form">
+        <label className="file-input-label">
+          <UploadCloud className="icon" />
+          <input
+            type="file"
+            onChange={handleFileChange}
+            accept="image/*"
+            className="file-input"
+          />
+        </label>
+
         {previewImage && (
-          <div className="mt-4">
-            <img 
-              src={previewImage} 
-              alt="Preview" 
-              className="max-w-full h-auto mx-auto rounded-md"
+          <div className="preview-container">
+            <img
+              src={previewImage}
+              alt="Preview"
+              className="preview-image"
             />
           </div>
         )}
-        
-        <button 
-          type="submit" 
-          className="w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 transition"
-        >
-          Upload and Process Image
+
+        <button type="submit" className="submit-button">
+          <ImageIcon className="icon" /> Upload and Process Image
         </button>
       </form>
 
-      {error && (
-        <div className="mt-4 p-2 bg-red-100 text-red-700 rounded-md">
-          {error}
-        </div>
-      )}
+      {error && <div className="error-message">{error}</div>}
 
       {processingResult && (
-        <div className="mt-4 p-4 bg-green-100 rounded-md">
-          <h3 className="font-bold mb-2">Processing Results:</h3>
-          <pre className="text-sm">
-            {JSON.stringify(processingResult, null, 2)}
-          </pre>
+        <div className="result-container">
+          <h3>Processing Results:</h3>
+          {processingResult.decoded_results.map((url, index) => (
+            <a
+              key={index}
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="result-link"
+            >
+              {url}
+            </a>
+          ))}
         </div>
       )}
     </div>
